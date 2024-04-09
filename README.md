@@ -1,2 +1,5 @@
 # Pest-Detection
 This project aims to develop a robust and accurate system for pest detection in agricultural fields using deep learning techniques, specifically Convolutional Neural Networks (CNNs). The system will be trained on a dataset of labeled images containing various types of pests commonly found in crops.
+
+the vgg16.py contains a Python script for pest detection using transfer learning with the VGG16 pre-trained model. The script utilizes the VGG16 model with pre-trained weights on the ImageNet dataset and fine-tunes it on a custom dataset of pest images. The dataset includes 12 classes of pests commonly found in agricultural fields. Data augmentation techniques such as horizontal flipping, random brightness/contrast adjustment, and random rotation are applied to increase the diversity of the training data. The model is trained using the Adam optimizer with a fixed learning rate, and training/validation accuracy and loss are visualized using matplotlib. Finally, the trained model is saved for future inference tasks.
+
